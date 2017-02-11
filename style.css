@@ -1,35 +1,38 @@
 body {
-    background-color: #478d91;
-	background-image: url("https://img.clipartfest.com/d061db8f5f4f23651c809647f5d17d15_music20notes20on20staff-transparent-clipart-music_2605-970.gif");
+    background-color: #edddc4;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fd/EscportalW_Music_transparent.png");
+ background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 p {
-	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, fantasy
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	color: white;
+	color: #0067a5;
 	line-height: 19.99px; 
 }
 
 h1 {
-	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, fantasy;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	color: white;
+	color: #0067a5;
 	line-height: 26.4px;
 }
 
 label {
-	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, fantasy;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	color: white;
+	color: #0067a5;
 	line-height: 19.99px; 
 }
 
@@ -40,7 +43,7 @@ menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #051e68;
 }
 
 li {
@@ -48,7 +51,7 @@ li {
 }
 
 li a {
-	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, fantasy;
 	font-size: 24px;
     display: block;
     color: white;
