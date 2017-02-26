@@ -55,9 +55,10 @@ Please make the following changes:
 function display() {
   DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
   message = "<ul><li><b>Name: </b>" + document.form1.name.value;
-  message += "<li><b>Email: </b>" + document.form1.email.value + "</ul>";
-  message += "<br>Sorry we weren't able to implement our submission function fully,<br>";
-  message += " but you can email it to GWCPlainfield1@gmail.com and we will post it<br>";
+  message += "<li><b>Email: </b>" + document.form1.email.value;
+  message += "<li><b>Link: </b>" + document.form1.user_link.value + "</ul>";
+  message += "<br>Sorry we weren't able to implement our submission function fully,";
+  message += " but you can email your info to GWCPlainfield1@gmail.com and we will post it";
   DispWin.document.write(message);
 }
 </script>
