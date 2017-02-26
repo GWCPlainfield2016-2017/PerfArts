@@ -5,6 +5,14 @@
 	  href = "style.css"
 />	
 </head>
+<body>
+ <menu>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="articles.html">Articles</a></li>
+  <li><a href="video.html">Pics/Video</a></li>
+  <li><a href="form.html">Submit a link</a></li>
+  <li><a href="info.html">About</a></li>
+</menu> 
 	
 <body>
 <!--
@@ -32,7 +40,7 @@ Please make the following changes:
 
         <label for="mail">E-mail:</label>
 
-        <input type="email" name="email" selected="selected">[choose yours]</option>
+        <input type="email" name="email">
 
     </div>
 
@@ -66,6 +74,8 @@ function display() {
   DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
   message = "<ul><li><b>Name: </b>" + document.form1.name.value;
   message += "<li><b>Email: </b>" + document.form1.email.value + "</ul>";
+  message += "<br>Sorry we weren't able to implement our submission function fully,<br>";
+  message += " but you can email it to GWCPlainfield1@gmail.com and we will post it<br>";
   DispWin.document.write(message);
 }
 </script>
